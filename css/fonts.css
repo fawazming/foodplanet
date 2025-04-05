@@ -1,0 +1,444 @@
+/* Thin: 100
+Extra Light: 200
+Light: 300
+Regular/Normal: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+Extra Bold: 800
+Black: 900 */
+
+/* greek-ext */
+
+@font-face {
+  font-family: "Farmhouse";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Farmhouse.otf);
+}
+
+@font-face {
+  font-family: "GlitterySnowfall";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Glittery-Snowfall.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/InterTight-Black.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/InterTight-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/InterTight-Bold.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/InterTight-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/InterTight-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/InterTight-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/InterTight-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/InterTight-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/InterTight-Italic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/InterTight-Light.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/InterTight-LightItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/InterTight-Medium.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/InterTight-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/InterTight-Regular.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/InterTight-SemiBold.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/InterTight-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/InterTight-Thin.ttf);
+}
+@font-face {
+  font-family: "InterTight";
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/InterTight-ThinItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Sarabun-Bold.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/Sarabun-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Sarabun-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/Sarabun-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Sarabun-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/Sarabun-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Sarabun-Italic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Sarabun-Light.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/Sarabun-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Sarabun-Medium.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/Sarabun-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Sarabun-Regular.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Sarabun-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/Sarabun-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/Sarabun-Thin.ttf);
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/Sarabun-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/WorkSans-Black.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/WorkSans-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/WorkSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/WorkSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/WorkSans-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/WorkSans-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/WorkSans-Italic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/WorkSans-Light.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/WorkSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/WorkSans-Medium.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/WorkSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/WorkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/WorkSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/WorkSans-Thin.ttf);
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/WorkSans-ThinItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Nunito-Black.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/Nunito-Black.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Nunito-Bold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/Nunito-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Nunito-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/Nunito-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: normal;
+  src: url(../fonts/Nunito-Italic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/Nunito-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Nunito-Medium.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/Nunito-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/Nunito-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Nunito-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/Nunito-ExtraBoldItalic.ttf);
+}
+/* Thin: 100
+Extra Light: 200
+Light: 300
+Regular/Normal: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+Extra Bold: 800
+Black: 900 */
