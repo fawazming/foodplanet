@@ -2504,8 +2504,9 @@ a.text-white {
 .footer {
   background-color: var(--Primary);
   padding-top: 123px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   position: relative;
+  padding-bottom: 5px;
 }
 .footer .footer-top {
   display: -webkit-box;
@@ -10887,7 +10888,7 @@ i.fs-12 {
   width: 79px;
   height: 79px;
   background-color: var(--White);
-  border: 2px solid var(--Primary);
+  /* border: 2px solid var(--Primary); */
   position: relative;
   overflow: hidden;
 }
@@ -10895,7 +10896,7 @@ i.fs-12 {
   color: var(--Primary);
 }
 .box-icon-list.style-2 .box-icon .icon::after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   height: 100%;
   width: 2px;
