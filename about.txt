@@ -73,3 +73,21 @@ www.foodplanetgl.com
 foodplanetgl@gmail.com
 7, Olukotun Crescent Ile Oba Bus Stop Oto Awori Ojo,
 Lagos, Nigeria.
+
+
+<div class="heading-section ">
+                            <p class="title tf-animate-1">Meet the CEO</p>
+                        </div>
+                        <p class="quote fs-30">    
+                            My Academic Profile
+                            Name: Sadudeen Moshood Abiola
+                            Qualifications:
+                            <ul>
+                                <li>NCE (Biology/Integrated Science) - Adeniran Ogunsanya College of Education, Oto Ijanikin, Lagos, Nigeria</li>
+                                <li>B.Sc (ED) Biology Education - Lagos State University (LASU), Ojo, Lagos, Nigeria</li>
+                                <li>M.Ed (Science Education) - Lagos State University (LASU), Ojo, Lagos, Nigeria</li>
+                                <li>PhD Fellow (Biology Education) - in a Foreign University</li>
+                                <li>Qualified Teachers Status (QTS) - United Kingdom</li>
+                                <li>Teachers Registration Council of Nigeria (TRCN)</li>
+                            </ul>
+                        </p>
