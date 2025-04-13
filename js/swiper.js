@@ -2,7 +2,7 @@ if ($(".slider-home-1").length > 0) {
     var swiper = new Swiper(".slider-home-1", {
         slidesPerView: 1,
         centeredSlides: true,
-        loop: true,
+        loop: false,
         effect: "fade", 
         speed: 900,
         fadeEffect: {
@@ -81,7 +81,7 @@ if (".slider-provide".length > 0) {
 if (".slider-why-us".length > 0) {
     var swiper = new Swiper(".slider-why-us", {
         slidesPerView: 4,
-        loop: true,
+        loop: false,
         spaceBetween: 30,
     });
 }

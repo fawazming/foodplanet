@@ -38,6 +38,7 @@
     var openNavMobile = () => {
         if ($(".header").hasClass("header")) {
             $(".mobile-button").on("click", () => {
+            console.log("Open Nav Mobile");
                 $(".mobile-nav-wrap").toggleClass("active");
                 $("body").toggleClass("no-scroll");
             });
