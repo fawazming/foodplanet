@@ -13579,7 +13579,7 @@ i.fs-12 {
   width: 100%;
 }
 .s-happy-farm .content-section {
-  margin-top: -355px;
+  /* margin-top: -355px; */
 }
 .s-happy-farm .content-section .content {
   display: -webkit-box;
@@ -16543,7 +16543,7 @@ i.fs-12 {
     display: none;
   }
   .s-happy-farm .content-section {
-    margin-top: -240px;
+    /* margin-top: -240px; */
   }
   .s-happy-farm .heading-section {
     margin-left: unset !important;
