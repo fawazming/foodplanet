@@ -1,0 +1,76 @@
+
+                    <div class="swiper-slide">
+                        <div class="slide-home-1">
+                            <div class="image overflow-hidden">
+                                <img src="images/index-3.jpg" data-src="./images/index-3.jpg" alt=""
+                                    class="lazyload tf-animate-zoom-in-out">
+                            </div>
+                            <div class="content-wrap">
+                                <div class="content">
+                                    <p class="sub-title font-snowfall tf-fade-top fade-item-1">
+                                        Connecting the World to Quality Agro-Food Products
+                                    </p>
+                                    <h1 class="title font-farmhouse tf-fade-right fade-item-2">
+                                        Every Day Is A Good <br>
+                                        Day To Be A Farmer
+                                    </h1>
+                                    <div class="img-item">
+                                        <img class="tf-trainsition-draw-left access-trainsition"
+                                            src="images/line-throw-title.png" alt="">
+                                    </div>
+                                    <p class="text font-nunito tf-fade-left fade-item-4">
+                                        At Foodplanet Global Limited, we believe in sustainable agriculture and the
+                                        importance of every farmer's contribution to food security.
+                                    </p>
+                                    <a href="our-services.html"
+                                        class="tf-btn btn-view bg-white tf-fade-bottom fade-item-5">
+                                        <span class="text-style cl-primary">
+                                            See Our Services
+                                        </span>
+                                        <div class="icon">
+                                            <i class="icon-arrow_right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="slide-home-1">
+                            <div class="image overflow-hidden">
+                                <img src="images/index-2.jpg" data-src="./images/index-2.jpg" alt=""
+                                    class="lazyload tf-animate-zoom-in-out">
+                            </div>
+                            <div class="content-wrap">
+                                <div class="content">
+                                    <p class="sub-title font-snowfall tf-fade-top fade-item-1">
+                                        Indulge in our premium selection of Seafood
+                                    </p>
+                                    <h1 class="title font-farmhouse tf-fade-right fade-item-2">
+                                        Savor the Freshness of <br> Seafood & Protein
+                                    </h1>
+                                    <div class="img-item ">
+                                        <img class="tf-trainsition-draw-left access-trainsition"
+                                            src="images/line-throw-title.png" alt="">
+                                    </div>
+                                    <p class="text font-nunito tf-fade-left fade-item-4">
+                                        At Foodplanet, we believe that the best meals start with the finest <br>
+                                        ingredients. Discover our carefully curated seafood and protein options <br>
+                                        that bring the taste of the ocean and the richness of nature <br> right to your
+                                        table.
+                                    </p>
+                                    <a href="products.html" class="tf-btn btn-view bg-white tf-fade-bottom fade-item-5">
+                                        <span class="text-style cl-primary">
+                                            See Our Products
+                                        </span>
+
+                                        <div class="icon">
+                                            <i class="icon-arrow_right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>

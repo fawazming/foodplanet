@@ -4,14 +4,14 @@ if ($(".slider-home-1").length > 0) {
         centeredSlides: true,
         loop: false,
         effect: "fade", 
-        speed: 900,
+        speed: 500,
         fadeEffect: {
             crossFade: true, 
         },
         grabCursor: true,
 
         autoplay: {
-            delay: 4000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         navigation: {
