@@ -1,0 +1,1113 @@
+/*==========================================================
+    FOODPLANET GLOBAL LIMITED - RICE LANDING PAGE
+    Page-scoped styles. Every selector is namespaced with
+    .rice-page so the rest of the website is untouched.
+==========================================================*/
+
+.rice-page {
+    background-color: var(--White);
+    color: var(--Text);
+}
+
+.rice-page .rice-container {
+    position: relative;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 2;
+}
+
+/*---------------- Sub navigation ----------------*/
+.rice-page .rice-subnav {
+    position: sticky;
+    top: 0;
+    z-index: 95;
+    background-color: var(--White);
+    border-bottom: 1px solid var(--Border-4);
+    box-shadow: 0 6px 24px rgba(13, 64, 28, 0.05);
+}
+
+.rice-page .rice-subnav .rice-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rice-page .rice-subnav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.rice-page .rice-subnav-list li {
+    flex: 0 0 auto;
+}
+
+.rice-page .rice-subnav-list a {
+    display: block;
+    padding: 18px 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--Text-2);
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.rice-page .rice-subnav-list a:hover,
+.rice-page .rice-subnav-list a:focus {
+    color: var(--Primary);
+    border-bottom-color: var(--Secondary);
+}
+
+.rice-page .rice-subnav .rice-subnav-call {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--Primary);
+    white-space: nowrap;
+}
+
+.rice-page .rice-subnav .rice-subnav-call i {
+    color: var(--Secondary);
+    filter: brightness(0.82);
+}
+
+/*---------------- Buttons ----------------*/
+.rice-page .rice-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 28px;
+    border-radius: 34px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease,
+        box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.rice-page .rice-btn i {
+    font-size: 18px;
+}
+
+.rice-page .rice-btn:hover {
+    transform: translateY(-2px);
+}
+
+.rice-page .rice-btn-primary {
+    background-color: var(--Secondary);
+    color: var(--Text-2);
+    box-shadow: 0 12px 26px rgba(248, 195, 44, 0.28);
+}
+
+.rice-page .rice-btn-primary:hover {
+    background-color: var(--White);
+    color: var(--Primary);
+}
+
+.rice-page .rice-btn-outline {
+    background-color: transparent;
+    color: var(--White);
+    border: 1px solid var(--Border-7);
+}
+
+.rice-page .rice-btn-outline:hover {
+    background-color: var(--White);
+    color: var(--Primary);
+    border-color: var(--White);
+}
+
+.rice-page .rice-btn-dark {
+    background-color: var(--Primary);
+    color: var(--White);
+    box-shadow: 0 12px 26px rgba(13, 64, 28, 0.18);
+}
+
+.rice-page .rice-btn-dark:hover {
+    background-color: var(--Text-2);
+    color: var(--Secondary);
+}
+
+.rice-page .rice-btn-white {
+    background-color: var(--White);
+    color: var(--Primary);
+}
+
+.rice-page .rice-btn-white:hover {
+    background-color: var(--Secondary);
+    color: var(--Text-2);
+}
+
+/*---------------- Hero ----------------*/
+.rice-page .rice-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0 0;
+    background:
+        radial-gradient(circle at 12% 18%, rgba(248, 195, 44, 0.16), transparent 42%),
+        radial-gradient(circle at 88% 0%, rgba(39, 141, 69, 0.5), transparent 48%),
+        linear-gradient(140deg, #0d401c 0%, #093416 48%, #061f0e 100%);
+    color: var(--White);
+}
+
+.rice-page .rice-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 26px 26px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.rice-page .rice-hero::after {
+    content: "";
+    position: absolute;
+    right: -120px;
+    bottom: -180px;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    border: 60px solid rgba(248, 195, 44, 0.08);
+    pointer-events: none;
+}
+
+.rice-page .rice-hero-grid {
+    display: grid;
+    grid-template-columns: 1.12fr 0.88fr;
+    gap: 56px;
+    align-items: center;
+    padding-bottom: 62px;
+}
+
+.rice-page .rice-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 22px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--Border-5);
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--White);
+}
+
+.rice-page .rice-eyebrow i {
+    color: var(--Secondary);
+}
+
+.rice-page .rice-eyebrow .rice-rc {
+    padding-left: 12px;
+    border-left: 1px solid var(--Border-5);
+    color: var(--Secondary);
+    letter-spacing: 0.04em;
+}
+
+.rice-page .rice-hero h1 {
+    margin: 0 0 20px;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 62px;
+    line-height: 1.08;
+    color: var(--White);
+}
+
+.rice-page .rice-hero h1 span {
+    color: var(--Secondary);
+}
+
+.rice-page .rice-subheadline {
+    margin-bottom: 18px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--Secondary);
+}
+
+.rice-page .rice-hero-desc {
+    max-width: 640px;
+    margin-bottom: 30px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.rice-page .rice-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+/* Flyer */
+.rice-page .rice-flyer-wrap {
+    position: relative;
+    justify-self: center;
+    width: 100%;
+    max-width: 420px;
+}
+
+.rice-page .rice-flyer {
+    position: relative;
+    padding: 12px;
+    border-radius: 26px;
+    background: linear-gradient(150deg, rgba(248, 195, 44, 0.55), rgba(255, 255, 255, 0.16));
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+}
+
+.rice-page .rice-flyer .rice-flyer-frame {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    background-color: var(--White);
+}
+
+.rice-page .rice-flyer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 560px;
+    object-fit: contain;
+    background-color: var(--White);
+}
+
+.rice-page .rice-flyer-badge {
+    position: absolute;
+    left: -18px;
+    bottom: 26px;
+    padding: 14px 22px;
+    border-radius: 16px;
+    background-color: var(--White);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+
+.rice-page .rice-flyer-badge .label {
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--Text);
+}
+
+.rice-page .rice-flyer-badge .value {
+    display: block;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 30px;
+    line-height: 1.15;
+    color: var(--Primary);
+}
+
+.rice-page .rice-flyer-badge .unit {
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+    color: var(--Text);
+}
+
+/* Stats */
+.rice-page .rice-hero-stats {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--Border-5);
+}
+
+.rice-page .rice-hero-stats .item {
+    padding: 26px 24px;
+    border-right: 1px solid var(--Border-5);
+}
+
+.rice-page .rice-hero-stats .item:last-child {
+    border-right: none;
+}
+
+.rice-page .rice-hero-stats .value {
+    display: block;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 34px;
+    line-height: 1.1;
+    color: var(--Secondary);
+}
+
+.rice-page .rice-hero-stats .label {
+    display: block;
+    margin-top: 4px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/*---------------- Sections ----------------*/
+.rice-page .rice-section {
+    position: relative;
+    padding: 92px 0;
+}
+
+.rice-page .rice-section-cream {
+    background-color: var(--Bg-8);
+}
+
+.rice-page .rice-section-head {
+    max-width: 760px;
+    margin: 0 auto 52px;
+    text-align: center;
+}
+
+.rice-page .rice-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--Text-4);
+}
+
+.rice-page .rice-kicker::before,
+.rice-page .rice-kicker::after {
+    content: "";
+    width: 26px;
+    height: 1px;
+    background-color: var(--Secondary);
+}
+
+.rice-page .rice-section-title {
+    margin-bottom: 16px;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 46px;
+    line-height: 1.12;
+    color: var(--Primary);
+}
+
+.rice-page .rice-section-sub {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--Text);
+}
+
+/*---------------- Price table ----------------*/
+.rice-page .rice-price-card {
+    overflow: hidden;
+    border-radius: 24px;
+    background-color: var(--White);
+    border: 1px solid var(--Border-4);
+    box-shadow: 0 24px 60px rgba(13, 64, 28, 0.08);
+}
+
+.rice-page .rice-table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.rice-page .rice-table thead {
+    background-color: var(--Primary);
+}
+
+.rice-page .rice-table thead th {
+    padding: 20px 26px;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: left;
+}
+
+.rice-page .rice-table thead th:last-child {
+    text-align: right;
+}
+
+.rice-page .rice-table tbody td {
+    padding: 20px 26px;
+    border: none;
+    border-bottom: 1px solid var(--Border-4);
+    vertical-align: middle;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    color: var(--Text);
+}
+
+.rice-page .rice-table tbody tr {
+    transition: background-color 0.25s ease;
+}
+
+.rice-page .rice-table tbody tr:hover {
+    background-color: var(--Bg-3);
+}
+
+.rice-page .rice-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.rice-page .rice-table .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--Primary);
+}
+
+.rice-page .rice-table .brand .dot {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: var(--Bg-1);
+    color: var(--Primary);
+    font-size: 16px;
+}
+
+.rice-page .rice-table .bag-size {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Text-2);
+}
+
+.rice-page .rice-table .price {
+    font-family: "Farmhouse", sans-serif;
+    font-size: 25px;
+    line-height: 1.1;
+    color: var(--Primary);
+}
+
+.rice-page .rice-table .actions {
+    text-align: right;
+}
+
+.rice-page .rice-order-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 24px;
+    background-color: var(--Bg-1);
+    color: var(--Primary);
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.rice-page .rice-order-link:hover {
+    background-color: var(--Primary);
+    color: var(--Secondary);
+}
+
+.rice-page .rice-price-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 22px auto 0;
+    max-width: 900px;
+    padding: 16px 20px;
+    border-radius: 14px;
+    background-color: var(--White);
+    border: 1px dashed var(--Border-12);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--Text);
+}
+
+.rice-page .rice-price-note i {
+    margin-top: 3px;
+    color: var(--Color-3);
+}
+
+/*---------------- Why choose us ----------------*/
+.rice-page .rice-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+}
+
+.rice-page .rice-card {
+    position: relative;
+    overflow: hidden;
+    padding: 34px 32px;
+    border-radius: 20px;
+    background-color: var(--White);
+    border: 1px solid var(--Border-4);
+    box-shadow: 0 16px 40px rgba(13, 64, 28, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.rice-page .rice-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--Secondary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s ease;
+}
+
+.rice-page .rice-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--Border-12);
+    box-shadow: 0 26px 56px rgba(13, 64, 28, 0.1);
+}
+
+.rice-page .rice-card:hover::after {
+    transform: scaleX(1);
+}
+
+.rice-page .rice-card .rice-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background-color: var(--Bg-1);
+    color: var(--Primary);
+    font-size: 24px;
+}
+
+.rice-page .rice-card h3 {
+    margin-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Primary);
+}
+
+.rice-page .rice-card p {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: var(--Text);
+}
+
+/*---------------- Community banner ----------------*/
+.rice-page .rice-community {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 56px;
+    border-radius: 28px;
+    background:
+        radial-gradient(circle at 88% 20%, rgba(248, 195, 44, 0.22), transparent 40%),
+        linear-gradient(120deg, #0d401c 0%, #156b2f 100%);
+    color: var(--White);
+}
+
+.rice-page .rice-community::before {
+    content: "\f232";
+    font-family: "Font Awesome 6 Brands", "Font Awesome 5 Brands", "FontAwesome";
+    position: absolute;
+    right: 40px;
+    bottom: -40px;
+    font-size: 200px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.06);
+    pointer-events: none;
+}
+
+.rice-page .rice-community-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rice-page .rice-community h2 {
+    margin-bottom: 12px;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 40px;
+    line-height: 1.15;
+    color: var(--White);
+}
+
+.rice-page .rice-community p {
+    max-width: 640px;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16.5px;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.rice-page .rice-community .rice-btn {
+    flex: 0 0 auto;
+}
+
+/*---------------- Shops / contact ----------------*/
+.rice-page .rice-shops-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 28px;
+    align-items: stretch;
+}
+
+.rice-page .rice-leadership {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 42px;
+    border-radius: 22px;
+    background-color: var(--Bg-8);
+    border: 1px solid var(--Border-4);
+}
+
+.rice-page .rice-leadership::before {
+    content: "\201C";
+    position: absolute;
+    top: 8px;
+    right: 28px;
+    font-family: Georgia, serif;
+    font-size: 140px;
+    line-height: 1;
+    color: var(--Border-12);
+    pointer-events: none;
+}
+
+.rice-page .rice-leadership .rice-kicker {
+    margin-bottom: 16px;
+}
+
+.rice-page .rice-leadership h3 {
+    margin-bottom: 8px;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 32px;
+    line-height: 1.15;
+    color: var(--Primary);
+}
+
+.rice-page .rice-leadership .credentials {
+    margin-bottom: 18px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--Text-4);
+}
+
+.rice-page .rice-leadership p {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--Text);
+}
+
+.rice-page .rice-shop-list {
+    display: grid;
+    gap: 20px;
+}
+
+.rice-page .rice-shop {
+    display: flex;
+    gap: 18px;
+    padding: 28px;
+    border-radius: 20px;
+    background-color: var(--White);
+    border: 1px solid var(--Border-4);
+    box-shadow: 0 16px 40px rgba(13, 64, 28, 0.05);
+}
+
+.rice-page .rice-shop .rice-shop-icon {
+    flex: 0 0 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    background-color: var(--Primary);
+    color: var(--Secondary);
+    font-size: 22px;
+}
+
+.rice-page .rice-shop h4 {
+    margin-bottom: 6px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--Primary);
+}
+
+.rice-page .rice-shop p {
+    margin: 0 0 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--Text);
+}
+
+.rice-page .rice-shop .rice-shop-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--Text-4);
+}
+
+.rice-page .rice-shop .rice-shop-link:hover {
+    color: var(--Primary);
+}
+
+.rice-page .rice-contact-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 28px;
+}
+
+.rice-page .rice-contact-item {
+    padding: 24px;
+    border-radius: 18px;
+    background-color: var(--White);
+    border: 1px solid var(--Border-4);
+}
+
+.rice-page .rice-contact-item .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    background-color: var(--Bg-1);
+    color: var(--Primary);
+    font-size: 18px;
+}
+
+.rice-page .rice-contact-item .label {
+    display: block;
+    margin-bottom: 4px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--Text);
+}
+
+.rice-page .rice-contact-item .value {
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: var(--Primary);
+    word-break: break-word;
+}
+
+.rice-page .rice-contact-item a.value:hover {
+    color: var(--Text-4);
+}
+
+/*---------------- Tagline strip ----------------*/
+.rice-page .rice-tagline {
+    position: relative;
+    overflow: hidden;
+    padding: 56px 0;
+    background:
+        radial-gradient(circle at 15% 50%, rgba(248, 195, 44, 0.18), transparent 42%),
+        var(--Text-2);
+    color: var(--White);
+    text-align: center;
+}
+
+.rice-page .rice-tagline .rice-tagline-title {
+    margin-bottom: 10px;
+    font-family: "Farmhouse", sans-serif;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--White);
+}
+
+.rice-page .rice-tagline .rice-tagline-title span {
+    color: var(--Secondary);
+}
+
+.rice-page .rice-tagline .rice-tagline-meta {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.rice-page .rice-tagline .rice-tagline-meta strong {
+    color: var(--Secondary);
+    font-weight: 700;
+}
+
+/*---------------- Responsive ----------------*/
+@media (max-width: 1199px) {
+    .rice-page .rice-hero h1 {
+        font-size: 52px;
+    }
+
+    .rice-page .rice-hero-grid {
+        gap: 40px;
+    }
+
+    .rice-page .rice-contact-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .rice-page .rice-subnav .rice-subnav-call {
+        display: none;
+    }
+
+    .rice-page .rice-hero {
+        padding-top: 52px;
+    }
+
+    .rice-page .rice-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 46px;
+        padding-bottom: 48px;
+    }
+
+    .rice-page .rice-flyer-wrap {
+        max-width: 380px;
+    }
+
+    .rice-page .rice-hero h1 {
+        font-size: 46px;
+    }
+
+    .rice-page .rice-hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rice-page .rice-hero-stats .item:nth-child(2) {
+        border-right: none;
+    }
+
+    .rice-page .rice-hero-stats .item:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--Border-5);
+    }
+
+    .rice-page .rice-section {
+        padding: 70px 0;
+    }
+
+    .rice-page .rice-section-title {
+        font-size: 38px;
+    }
+
+    .rice-page .rice-cards,
+    .rice-page .rice-shops-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .rice-page .rice-community {
+        padding: 44px 34px;
+    }
+
+    .rice-page .rice-community-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .rice-page .rice-community h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rice-page .rice-hero h1 {
+        font-size: 38px;
+    }
+
+    .rice-page .rice-subheadline {
+        font-size: 16px;
+    }
+
+    .rice-page .rice-hero-actions .rice-btn {
+        width: 100%;
+    }
+
+    .rice-page .rice-flyer-badge {
+        left: 8px;
+        bottom: 16px;
+        padding: 10px 16px;
+    }
+
+    .rice-page .rice-flyer-badge .value {
+        font-size: 24px;
+    }
+
+    .rice-page .rice-section {
+        padding: 56px 0;
+    }
+
+    .rice-page .rice-section-title {
+        font-size: 32px;
+    }
+
+    .rice-page .rice-section-sub {
+        font-size: 15.5px;
+    }
+
+    .rice-page .rice-price-card {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        overflow: visible;
+    }
+
+    .rice-page .rice-table,
+    .rice-page .rice-table tbody,
+    .rice-page .rice-table tr,
+    .rice-page .rice-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .rice-page .rice-table thead {
+        display: none;
+    }
+
+    .rice-page .rice-table tr {
+        margin-bottom: 14px;
+        padding: 20px;
+        border-radius: 16px;
+        background-color: var(--White);
+        border: 1px solid var(--Border-4);
+        box-shadow: 0 12px 30px rgba(13, 64, 28, 0.06);
+    }
+
+    .rice-page .rice-table tbody td {
+        padding: 5px 0;
+        border-bottom: none;
+    }
+
+    .rice-page .rice-table tbody td[data-label]::before {
+        content: attr(data-label) ": ";
+        font-family: "Work Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--Text);
+    }
+
+    .rice-page .rice-table .actions {
+        text-align: left;
+        padding-top: 14px;
+    }
+
+    .rice-page .rice-table .actions::before {
+        display: none;
+    }
+
+    .rice-page .rice-order-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .rice-page .rice-cards {
+        gap: 18px;
+    }
+
+    .rice-page .rice-card {
+        padding: 26px 24px;
+    }
+
+    .rice-page .rice-leadership {
+        padding: 30px 24px;
+    }
+
+    .rice-page .rice-leadership h3 {
+        font-size: 27px;
+    }
+
+    .rice-page .rice-shop {
+        padding: 22px;
+    }
+
+    .rice-page .rice-contact-list {
+        grid-template-columns: 1fr;
+    }
+
+    .rice-page .rice-tagline .rice-tagline-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 479px) {
+    .rice-page .rice-hero h1 {
+        font-size: 32px;
+    }
+
+    .rice-page .rice-hero-stats .item {
+        padding: 20px 16px;
+    }
+
+    .rice-page .rice-hero-stats .value {
+        font-size: 28px;
+    }
+
+    .rice-page .rice-community {
+        padding: 36px 24px;
+        border-radius: 20px;
+    }
+
+    .rice-page .rice-community h2 {
+        font-size: 28px;
+    }
+
+    .rice-page .rice-community .rice-btn {
+        width: 100%;
+    }
+}
